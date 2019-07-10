@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>This flow detects the overdue Needit task more than 21 days from the due date and closes them automatically .</description>
+        <internal_name>overdue_needit_tasks</internal_name>
+        <label_cache>[{"name":"ea924be2-3ca5-4891-81b3-97c83cd6d9dc.Table","label":"3➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Table","type":"table_name","base_type":"table_name"},{"name":"ea924be2-3ca5-4891-81b3-97c83cd6d9dc.Record","label":"3➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Record","type":"reference","base_type":"reference"},{"name":"de2ff5cd-8e36-4734-88f4-0c769bc0ae5f.new_date","label":"2➛New Date","type":"glide_date","base_type":"glide_date"},{"name":"ff4a4974-b94d-40e3-88d9-263c96387105.property_value","label":"1➛Property value","reference_display":"Property value","type":"string","base_type":"string"},{"name":"59362bf5-496e-4f11-b476-4cc16eeb792f.property_value","label":"1➛Property value","reference_display":"Property value","type":"string","base_type":"string"},{"name":"62975daa-1c44-4593-8a1a-254e8b7c5179.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"62975daa-1c44-4593-8a1a-254e8b7c5179.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"62975daa-1c44-4593-8a1a-254e8b7c5179.Records","label":"1➛Records","reference_display":"Records","type":"records","base_type":"records"},{"name":"56d5caf2-f017-4b47-aebc-4b32220a8e52.property_value","label":"1➛Property value","reference_display":"Property value","type":"string","base_type":"string"},{"name":"74b5127a-176f-4ba8-80b6-8e7f1f72ea4a.property_value","label":"1➛Property value","type":"string","base_type":"string"},{"name":"ddd71b3f-2feb-4cd3-a1ac-50f32c330e9f.Records","label":"3➛NeedIt Task Records","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"records","base_type":"records"},{"name":"ddd71b3f-2feb-4cd3-a1ac-50f32c330e9f.Table","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"ddd71b3f-2feb-4cd3-a1ac-50f32c330e9f.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"4b62db53-5534-4c6d-96a3-303bef713b06.item","label":"4➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"4b62db53-5534-4c6d-96a3-303bef713b06.item.number","label":"4➛NeedIt Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit_task","column_name":"number"},{"name":"4b62db53-5534-4c6d-96a3-303bef713b06.item.due_date","label":"4➛NeedIt Task Record➛Due date","reference":"","reference_display":"Due date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit_task","column_name":"due_date"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Overdue Needit tasks</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-10 07:28:03</sys_created_on>
+        <sys_id>892a7f65db223300e81861ca0b9619cb</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Overdue Needit tasks</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_892a7f65db223300e81861ca0b9619cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-10 07:56:48</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=892a7f65db223300e81861ca0b9619cb"/>
+    <sys_variable_value action="delete_multiple" query="document_key=892a7f65db223300e81861ca0b9619cb"/>
+</record_update>
